@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.wrapper {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -88,7 +88,7 @@ label[for="new-task"] {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 
@@ -128,7 +128,7 @@ button.del img:hover {
 }
 
 /* Completed */
-ul#compl-tasks label {
+#compl-tasks label {
     text-decoration: line-through
     color: #888;
 }
