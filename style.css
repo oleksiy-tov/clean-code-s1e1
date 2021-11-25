@@ -21,9 +21,11 @@
 }
 
 @media (max-width: 768px) {
+
     .header {
         text-align: center;
     }
+
 }
 
 .main-element {
@@ -47,11 +49,13 @@ ul {
     padding: 0;
 }
 
-li, h3 {
+
+h3 {
     list-style: none;
 }
 
-input,button {
+input,
+button {
     outline: none;
 }
 
@@ -158,11 +162,11 @@ ul li input[type="text"] {
     display: none;
 }
 
-ul li.edit-mode input[type="text"] {
+.edit-mode input[type="text"] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode label {
     display: none;
 }
